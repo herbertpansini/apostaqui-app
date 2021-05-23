@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <color name="colorPrimaryBase">#3F51B5</color>
+    <color name="colorPrimaryDarkBase">#303F9F</color>
+    <color name="colorAccentBase">#FF4081</color>
+
+    <!-- Full application theme. -->
+    <color name="colorPrimary">#FF5C33</color>
+    <color name="colorPrimaryDark">#E62E00</color>
+    <color name="colorAccent">#EFEFEF</color>
+    <color name="iron">#EFEFEF</color>
+    <color name="textShadow">#7F000000</color>
+</resources>

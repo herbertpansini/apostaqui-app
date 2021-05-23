@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_equipes"
+            android:title="Equipes" />
+        <item
+            android:id="@+id/nav_report"
+            android:title="Relatório" />
+        <item
+            android:id="@+id/nav_Rodadas"
+            android:title="Rodadas" />
+        <item
+            android:id="@+id/nav_Confirmados"
+            android:title="Confirmados" />
+        <item
+            android:id="@+id/nav_Pendente_Confirmacao"
+            android:title="Não Confirmadas" />
+        <item
+            android:id="@+id/nav_Pendentes"
+            android:title="Pendentes" />
+        <item
+            android:id="@+id/nav_Validated"
+            android:title="Validados" />
+        <item
+            android:id="@+id/nav_share"
+            android:title="Usuários" />
+        <item
+            android:id="@+id/nav_send"
+            android:title="Configuração" />
+        <item
+            android:id="@+id/nav_off"
+            android:title="Sair" />
+    </group>
+
+</menu>

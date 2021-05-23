@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pancini.herbert.apostaqui.ConfrontoEditActivity" >
+
+    <!-- <TextView
+        android:id="@+id/tvRodada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     -->
+
+    <TextView
+        android:id="@+id/tvEquipeMandante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/equipe_mandante" />
+
+    <Spinner
+        android:id="@+id/spinnerEquipeMandante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEquipeMandante" />
+
+    <!-- Placar Equipe Mandante -->
+    <TextView
+        android:id="@+id/tvPlacarEquipeMandante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placar_equipe_mandante"
+        android:layout_below="@+id/spinnerEquipeMandante" />
+
+    <EditText
+        android:id="@+id/etPlacarEquipeMandante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPlacarEquipeMandante"
+        android:inputType="number" />
+
+    <!-- Placar Equipe Visitante -->
+    <TextView
+        android:id="@+id/tvPlacarEquipeVisitante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placar_equipe_visitante"
+        android:layout_below="@+id/etPlacarEquipeMandante" />
+
+    <EditText
+        android:id="@+id/etPlacarEquipeVisitante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPlacarEquipeVisitante"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvEquipeVisitante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/equipe_visitante"
+        android:layout_below="@+id/etPlacarEquipeVisitante" />
+
+    <Spinner
+        android:id="@+id/spinnerEquipeVisitante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEquipeVisitante" />
+
+    <TextView
+        android:id="@+id/tvHorarioConfronto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_confronto"
+        android:layout_below="@+id/spinnerEquipeVisitante" />
+
+    <EditText
+        android:id="@+id/etHorarioConfronto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_below="@+id/tvHorarioConfronto" />
+
+    <Button
+        android:id="@+id/btCreateConfronto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHorarioConfronto"
+        android:text="@string/button_save"
+        android:onClick="send" />
+
+</RelativeLayout>

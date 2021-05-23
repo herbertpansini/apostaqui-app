@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp">
+
+    <!-- classificação -->
+    <TextView
+        android:id="@+id/classificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- nome -->
+    <TextView
+        android:id="@+id/nome_classificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/classificacao"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"
+        android:textColor="#000000"  />
+
+    <!-- pontos -->
+    <TextView
+        android:id="@+id/pontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Apostaquí</string>
+    <string name="default_url">http://apostaqui.mdmodas.com/</string>
+    <string name="title_home">Jogos</string>
+    <string name="title_history">Histórico</string>
+    <string name="title_dashboard">Minhas Apostas</string>
+    <string name="title_notifications">Classificação</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <string name="message_please_wait">Carregando, por favor aguarde...</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="action_sign_up_question">Não tem uma conta ainda? registre-se</string>
+    <string name="action_sign_in_question">Já tem uma conta? Entrar</string>
+    <string name="action_sign_up_short">Registre-se</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Esse endereço de Email é inválido</string>
+    <string name="error_invalid_password">Essa senha está incorreta</string>
+    <string name="error_less_password">Essa senha é muito curta</string>
+    <string name="error_invalid_login">E-mail ou senha está incorreto</string>
+    <string name="error_field_required">Esse campo é obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing Email completions."
+    </string>
+
+    <!-- Strings related to Register -->
+    <string name="register">Registrar</string>
+    <string name="name">Nome e Sobre Nome ou Nome e Apelido</string>
+    <string name="phone_number">Número de Telefone</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="confirm_password">Confirma Senha</string>
+    <string name="signup">Registrar</string>
+    <string name="signup_failed">Seu registro falhou</string>
+    <string name="error_invalid_name">Esse nome é inválido</string>
+    <string name="error_incorrect_name">Esse nome é muito curto</string>
+    <string name="error_invalid_phone_number">Esse número de telefone é inválido</string>
+    <string name="error_duplicated_phone_number">Esse número de telefone já existe</string>
+    <string name="error_duplicated_address_mail">Esse Email já existe</string>
+    <string name="error_incorrect_confirm_password">Essa confirmação de senha está incorreta</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_matchweek">Confrontos</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_my_bets">Minhas Apostas</string>
+    <string name="nav_classification">Classificação</string>
+
+    <string name="title_activity_aposta">Aposta</string>
+
+    <string name="profile">Perfil</string>
+
+    <string name="year">Ano</string>
+    <string name="number">Número</string>
+    <string name="discontinued">Ativo?</string>
+
+    <string name="quantidade_horas">Quantidade de Horas</string>
+
+    <!-- Confrontos -->
+    <string name="confronto">Brasileirão Séria A</string>
+    <string name="equipe_mandante">Equipe Mandante</string>
+    <string name="placar_equipe_mandante">Placar Equipe Mandante</string>
+    <string name="placar_equipe_visitante">Placar Equipe Visitante</string>
+    <string name="equipe_visitante">Equipe Visitante</string>
+    <string name="data_confronto">Data</string>
+    <string name="hora_confronto">Hora</string>
+
+    <string name="apostas">Apostas</string>
+
+    <string name="button_save">Salvar</string>
+
+    <!-- Tramitação Processos -->
+    <string-array name="selection_fighting">
+        <item>Vitória equipe mandante</item>
+        <item>Empate entre as equipes</item>
+        <item>Vitória equipe visitante</item>
+    </string-array>
+
+    <string name="access_denied">access denied!</string>
+    <string name="positive_button">OK</string>
+    <string name="negative_button">Cancelar</string>
+    <string name="title_password">Senha</string>
+    <string name="message_password">Entre com a senha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

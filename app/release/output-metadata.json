@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.pancini.herbert.apostaqui",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 36,
+      "versionName": "3.6",
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

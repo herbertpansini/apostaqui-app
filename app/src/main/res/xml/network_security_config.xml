@@ -2,6 +2,6 @@
 <network-security-config>
     <base-config cleartextTrafficPermitted="false" />
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">apostaqui.mdmodas.com</domain>
+        <domain includeSubdomains="true">app.apostaqui.com.br</domain>
     </domain-config>
 </network-security-config>

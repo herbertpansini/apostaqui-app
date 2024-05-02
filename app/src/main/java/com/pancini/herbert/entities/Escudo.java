@@ -16,8 +16,17 @@ public class Escudo {
             case "BAH" :
                 this.icon = R.drawable.bah;
                 break;
-            case "BGT" :
+            case "BOT" :
+                this.icon = R.drawable.bot;
+                break;
+            case "RBB" :
                 this.icon = R.drawable.bgt;
+                break;
+            case "CRI" :
+                this.icon = R.drawable.cri;
+                break;
+            case "CRU" :
+                this.icon = R.drawable.cru;
                 break;
             case "CAM" :
                 this.icon = R.drawable.cam;
@@ -64,8 +73,47 @@ public class Escudo {
             case "SAO" :
                 this.icon = R.drawable.sao;
                 break;
+            case "VIT" :
+                this.icon = R.drawable.vit;
+                break;
+            case "VAS" :
+                this.icon = R.drawable.vas;
+                break;
             case "SPT" :
                 this.icon = R.drawable.spt;
+                break;
+            case "ITU" :
+                this.icon = R.drawable.itu;
+                break;
+            case "POR" :
+                this.icon = R.drawable.por;
+                break;
+            case "STA" :
+                this.icon = R.drawable.sta;
+                break;
+            case "GUA" :
+                this.icon = R.drawable.gua;
+                break;
+            case "PON" :
+                this.icon = R.drawable.pon;
+                break;
+            case "AGS" :
+                this.icon = R.drawable.ags;
+                break;
+            case "INL" :
+                this.icon = R.drawable.inl;
+                break;
+            case "MIR" :
+                this.icon = R.drawable.mir;
+                break;
+            case "BSP" :
+                this.icon = R.drawable.bsp;
+                break;
+            case "NOV" :
+                this.icon = R.drawable.novo;
+                break;
+            case "SBD" :
+                this.icon = R.drawable.sbd;
                 break;
             default:
                 break;
